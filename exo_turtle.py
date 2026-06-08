@@ -159,7 +159,6 @@ t.forward(110)
 t.setheading(80)
 t.forward(95)
 
-# QUEUE :
 t.up()
 t.goto(121, 80)
 t.down()
@@ -205,11 +204,6 @@ t.left(50)
 t.circle(30, 50)
 t.right(30)
 t.circle(20, -150)
-
-# t.up()
-# t.goto(-35, 30)
-# t.down()
-# t.forward(50)
 
 t.up()
 t.goto(-200, 150)
