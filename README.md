@@ -16,7 +16,7 @@ J'ai d'abord défini l'ambiance graphique pour simuler l'espace et le ciel noctu
 * Une vitesse d'exécution rapide  " speed(10) "  pour tracer les formes complexes sans attente.
 
 pour le tracement des lignes :
-* j'ai utiliser " t.up() " pour pouvoir rien écrire si je me deplace par (lever le stylo) " t.goto(x, y) " qui permet de me deplacer .
+* j'ai utiliser " t.up() " pour pouvoir rien écrire si je me deplace par (lever le stylo), " t.down() " pour baisser le stylo et " t.goto(x, y) " qui permet de me deplacer .
 * pour les ligne droite " t.forward() " et de  courbes complexes à base de rayons variables " circle() " pour donner un bonne forme a la constellation comme les courbes a la queue).
 * Utilisation d'un boucle " for i in range (1, 3) " pour la creation de certain motif géométrique au noveau de la tete .
 
